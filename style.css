@@ -1,0 +1,104 @@
+#landing-page{
+    height: 100vh;
+    background-image: url('./assets/backgrounds/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#landing-page .navbar-nav a{
+    font-size: 20px;
+    color: white;
+    margin-right: 60px;
+}
+.container{
+    text-align: center;
+}
+#slogan{
+    margin-top: 245px;
+}
+#slogan h1{
+    font-size: 60px;
+    word-spacing: 16px;
+    padding-bottom: 60px;
+}
+#slogan p{
+    line-height: 1rem;
+    font-size: 20px;
+    word-spacing: ;
+}
+#slogan img{
+    margin-top: 130px;
+}
+
+/* Products */
+#products{
+    height: 100vh;
+}
+#products .gender-radio{
+    background-color: silver;
+    align-items: center;
+    padding: 30px;
+}
+#products .gender-radio a{
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    float: right;
+    margin-top: -7px;
+}
+.card-title p{
+    float: left;
+    margin-left: 12px;
+    margin-top: 15px;
+}
+.men p{
+    float: left;
+}
+.men hr{
+    float: right;
+}
+.women p{
+    float: right;
+}
+.women hr{
+    float: left;
+}
+.product-name{
+    float: left;
+    color: burlywood;
+    font-size: 17px;
+    font-weight: 600;
+}
+.product-price{
+    float: right;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* about */
+#about{
+    height: 100vh;
+    margin-top: 20%;
+    background-image: url('./assets/backgrounds/about.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+#about .col-12{
+    margin-top: 100px;
+}
+.promo-code{
+    margin-top: -31%;
+    margin-right: 14.5px;
+}
+.promo-code img{
+    float: left;
+    margin-left: 13px;
+    padding: 15px;
+}
+.promo-code p{
+    float: right;
+    margin-right: 500px;
+    padding: 15px;
+}
